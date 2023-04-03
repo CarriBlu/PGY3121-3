@@ -1,0 +1,87 @@
+.contenedorHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: rgb(233, 227, 227);
+}
+
+.contenedorHeader h3{
+    padding-left: 20px;
+    color: blue;
+}
+
+a{
+    text-decoration: none;
+}
+
+.contenedorHeader h3:hover{
+    color: blueviolet;
+}
+
+body{
+    margin: 0;
+}
+
+
+.contenedorFooter{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.boxFooter{
+    width: 33.3%;
+    
+    padding: 20px;
+    background-color: blanchedalmond;
+}
+
+.boxFooter img{
+    height: 30px;
+    width: 30px;
+    padding-right: 10px;
+}
+
+.miniBox{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.boxFooter p{
+    text-align: justify;
+}
+
+.miniBox h3:hover{
+    color:red; 
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.box i {
+    padding-right: 10px;
+}
+
+
+.contenedor{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+table{
+    width: 100%;
+}
+
+table tr{
+    text-align: center;
+}
+
+.data1{
+    height: 50px;
+    background-color: cadetblue;
+}
